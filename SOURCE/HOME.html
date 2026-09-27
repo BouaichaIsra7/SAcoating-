@@ -1,0 +1,505 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SA COATING | Agence Officielle Chery</title>
+    <link rel="icon" type="image/png" href="../img/chery-logo.png" />
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../CSS/style.css" />
+    <style>
+
+        *{
+            margin:0;
+            padding:0;
+            box-sizing:border-box;
+        }
+
+        body{
+            font-family:'Poppins',sans-serif;
+            background:#f8f9fa;
+        }
+
+        /*========================
+              NAVBAR
+        =========================*/
+
+        .navbar{
+            background:#fff;
+            padding:15px 0;
+            box-shadow:0 5px 20px rgba(0,0,0,.08);
+        }
+
+        .navbar-brand{
+            display:flex;
+            align-items:center;
+            gap:12px;
+        }
+
+        .navbar-brand img{
+            width:65px;
+            height:auto;
+        }
+
+        .brand-text{
+            display:flex;
+            flex-direction:column;
+            line-height:1.1;
+        }
+
+        .brand-text h5{
+            color:#000000;
+            font-weight:700;
+            margin:0;
+            letter-spacing:1px;
+        }
+
+        .brand-text small{
+            color:#666;
+            font-size:13px;
+        }
+
+        /*========================
+            MENU
+        =========================*/
+
+        .navbar-nav .nav-link{
+            color:#333;
+            font-weight:600;
+            margin:0 18px;
+            position:relative;
+            transition:.3s;
+            font-size: 15px;
+        }
+
+        .navbar-nav .nav-link:hover,
+        .navbar-nav .nav-link.active{
+            color:#727272;
+        }
+
+        .navbar-nav .nav-link::after{
+
+            content:"";
+            position:absolute;
+            left:0;
+            bottom:-8px;
+
+            width:0%;
+            height:3px;
+
+            background:#D71920;
+            transition:.3s;
+
+        }
+
+        .navbar-nav .nav-link:hover::after,
+        .navbar-nav .nav-link.active::after{
+
+            width:100%;
+
+        }
+
+        @media(max-width:576px){
+            .navbar-nav .nav-link{
+                margin:8px 0;
+                font-size:14px;
+            }
+        }
+
+        @media(max-width:768px){
+            .navbar-nav .nav-link{
+                margin:12px 0;
+                font-size:14px;
+            }
+        }
+
+        /*========================
+            PHONE
+        =========================*/
+
+        .phone{
+
+            display:flex;
+            align-items:center;
+            gap:8px;
+
+            padding:10px 18px;
+
+            border-radius:50px;
+
+            background:#f2f2f2;
+
+            color:#259300;
+
+            text-decoration:none;
+
+            font-weight:600;
+
+            margin-right:15px;
+
+            transition:.3s;
+            font-size: 14px;
+
+        }
+
+        .phone:hover{
+
+            background:#757575;
+            color:#fff;
+
+        }
+
+        @media(max-width:576px){
+            .phone{
+                padding:8px 12px;
+                font-size: 12px;
+                margin-right:0;
+                margin:10px 0;
+            }
+        }
+
+        @media(max-width:768px){
+            .phone{
+                padding:10px 15px;
+                font-size: 13px;
+                justify-content:center;
+                margin:10px 0;
+            }
+        }
+
+        /*========================
+             BUTTON
+        =========================*/
+
+                /*========================
+                    RESPONSIVE
+                ========================*/
+
+        /*========================
+          RESPONSIVE
+        =========================*/
+
+        @media(max-width:991px){
+
+            .navbar-nav{
+
+                text-align:center;
+                margin:20px 0;
+
+            }
+
+            .navbar-nav .nav-link{
+
+                margin:12px 0;
+
+            }
+
+            .phone{
+
+                justify-content:center;
+                margin:15px 0;
+
+            }
+
+            .d-flex{
+
+                flex-direction:column;
+
+            }
+
+        }
+
+        @media(max-width:768px){
+            .navbar-brand img{
+                width:50px;
+            }
+
+            .brand-text h5{
+                font-size:16px;
+            }
+
+            .brand-text small{
+                font-size:11px;
+            }
+        }
+
+        @media(max-width:576px){
+            .navbar-brand img{
+                width:45px;
+            }
+
+            .brand-text h5{
+                font-size:14px;
+            }
+
+            .brand-text small{
+                font-size:10px;
+            }
+
+            .navbar{
+                padding:10px 0;
+            }
+
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+<nav class="navbar navbar-expand-lg sticky-top">
+
+<div class="container">
+
+    <!-- Logo -->
+
+    <a class="navbar-brand" href="#">
+
+        <img src="../img/chery-logo.png" alt="Chery Logo">
+
+        <div class="brand-text">
+
+            <h5>CHERY</h5>
+
+            <small>SA COATING Distribution</small>
+
+        </div>
+
+    </a>
+
+    <!-- Mobile -->
+
+    <button class="navbar-toggler" type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbar">
+
+        <span class="navbar-toggler-icon"></span>
+
+    </button>
+
+    <!-- Menu -->
+
+    <div class="collapse navbar-collapse" id="navbar">
+
+        <ul class="navbar-nav mx-auto">
+
+            <li class="nav-item">
+
+                <a class="nav-link active" href="#">
+                    Accueil
+                </a>
+
+            </li>
+
+            <li class="nav-item">
+
+                <a class="nav-link" href="RDV.html">
+                    Prendre un rendez-vous
+                </a>
+
+            </li>
+
+        </ul>
+
+        <!-- Right Side -->
+
+        <div class="d-flex align-items-center">
+
+            <a href="tel:+21625307197" class="phone">
+
+                <i class="bi bi-telephone-fill"></i>
+
+                +216 25 307 197
+
+            </a>
+
+        </div>
+
+    </div>
+
+</div>
+
+</nav>
+
+<div class="container mt-5">
+    <div class="text-center">
+         <p class="lead hero-lead">
+            <strong>SA COATING Distribution</strong> met son expertise au service de ses clients en tant que concessionnaire officiel Chery.
+            Nous proposons une gamme complète de véhicules Chery, un service après-vente de qualité, des pièces d'origine et un accompagnement personnalisé pour une expérience automobile réussie.
+        </p>
+        <div class="hero-actions">
+            <button class="btn btn-primary mt-3" onclick="window.location.href='RDV.html'"><i class="bi bi-calendar2-check"></i> Prendre rendez-vous</button>
+            <a class="hero-link" href="#services">Découvrir nos services <i class="bi bi-arrow-down"></i></a>
+        </div>
+    </div>
+</div>
+
+<div class="container mt-5">
+    <div class="hours-panel">
+        <div class="hours-intro">
+            <span class="hours-icon"><i class="bi bi-clock"></i></span>
+            <div>
+                <span class="hours-label">Disponibilité</span>
+                <h2>Horaires d'ouverture</h2>
+                <p>Venez nous rencontrer dans notre agence Chery.</p>
+            </div>
+        </div>
+        <div class="hours-list" aria-label="Horaires d'ouverture">
+            <div class="hours-row">
+                <span>Lun - Ven</span>
+                <strong>8h - 17h</strong>
+            </div>
+            <div class="hours-row">
+                <span>Samedi</span>
+                <strong>8h - 14h</strong>
+            </div>
+            <div class="hours-row is-closed">
+                <span>Dimanche</span>
+                <strong>Fermé</strong>
+            </div>
+        </div>
+    </div>
+</div>
+
+<section id="services" class="feature-section py-5 feature-reveal">
+    <div class="container">
+        <div class="row align-items-center gy-4 feature-box">
+            <div class="col-lg-6">
+                <img src="../img/carrosserie.jpg" alt="Atelier de Carrosserie" class="feature-image img-fluid rounded shadow-sm">
+            </div>
+            <div class="col-lg-6">
+                <div class="feature-content">
+                    <h2>Atelier de Carrosserie</h2> <hr> <br>
+                    <p>Nous prenons soin de votre carrosserie.</p>
+                 </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="feature-section py-5 feature-reveal">
+    <div class="container">
+        <div class="row align-items-center gy-4 feature-box">
+            <div class="col-lg-6">
+                <img src="../img/peinture.jpg" alt="Atelier de peinture" class="feature-image img-fluid rounded shadow-sm">
+            </div>
+            <div class="col-lg-6">
+                <div class="feature-content">
+                         <h2>Atelier de Peinture</h2><hr>
+                    <p>Nous prenons soin de la peinture de votre véhicule.</p>
+                 </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="feature-section py-5 feature-reveal">
+    <div class="container">
+        <div class="row align-items-center gy-4 feature-box">
+            <div class="col-lg-6">
+                <img src="../img/MECANIQUE.png" alt="Atelier de mécanique" class="feature-image img-fluid rounded shadow-sm">
+            </div>
+            <div class="col-lg-6">
+                <div class="feature-content">
+                         <h2>Atelier Mécanique</h2><hr>
+                    <p>Nous prenons soin de la mécanique de votre véhicule.</p>
+                 </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Map Section (Google Maps iframe) -->
+<section class="map-section">
+    <div class="container">
+        <div class="map-heading">
+            <div>
+                <span class="map-kicker"><i class="bi bi-geo-alt-fill"></i> Notre emplacement</span>
+                <h3>Venez nous rendre visite</h3>
+                <p>Retrouvez facilement notre agence officielle Chery à Mnihla.</p>
+            </div>
+            <a class="map-directions" href="https://www.google.com/maps/search/?api=1&query=Route+Bizerte+Km+8+Mnihla+Ariana+Tunisia" target="_blank" rel="noopener">
+                Itinéraire <i class="bi bi-arrow-up-right"></i>
+            </a>
+        </div>
+        <div class="map-card">
+            <div class="map-responsive">
+                <iframe
+                    src="https://maps.google.com/maps?q=Route%20Bizerte%20Km%208%20Mnihla%20Ariana%20Tunisia&t=&z=15&ie=UTF8&iwloc=&output=embed"
+                    title="Localisation de SA COATING Distribution"
+                    allowfullscreen="" loading="lazy"></iframe>
+            </div>
+            <div class="map-address">
+                <i class="bi bi-geo-alt"></i>
+                <span>Route Bizerte Km 8, Mnihla, Ariana 2094</span>
+            </div>
+        </div>
+    </div>
+</section>
+<footer class="footer">
+    <div class="container">
+        <div class="row gy-4 text-white">
+            <div class="col-md-4">
+                <div class="footer-brand">
+                    <img src="../img/chery-logo.png" alt="Chery Logo" class="footer-logo">
+                    <p>SA COATING Distribution — concessionnaire officiel Chery. Découvrez nos services, nos rendez-vous et nos prestations d'entretien et réparation.</p>
+                    <a class="footer-action" href="RDV.html">Prendre rendez-vous <i class="bi bi-arrow-up-right"></i></a>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <h5>Contact</h5>
+                <ul class="list-unstyled footer-list">  
+                    <li><i class="bi bi-geo-alt-fill"></i> Route Bizerte Km 8, MNIHLA, ARIANA 2094</li>
+                    <li><i class="bi bi-telephone-fill"></i> <a href="tel:+21625307197">+216 25 307 197</a></li>
+                    <li><i class="bi bi-envelope-fill"></i> <a href="mailto:sacoatingdistribution@gmail.com">sacoatingdistribution@gmail.com</a></li>
+                </ul>
+            </div>
+            <div class="col-md-3">
+                <h5>Liens rapides</h5>
+                <ul class="list-unstyled footer-list">
+                    <li><a href="HOME.html">Accueil</a></li>
+                    <li><a href="RDV.html">Prendre un rendez-vous</a></li>
+                    <li><a href="#">Nos services</a></li>
+                </ul>
+            </div>
+            <div class="col-md-2">
+                <h5>Suivez-nous</h5>
+                <div class="footer-social">
+                    <a href="#" aria-label="Instagram"><i class="bi bi-instagram"></i></a>
+                    <a href="#" aria-label="Facebook"><i class="bi bi-facebook"></i></a>
+                    <a href="https://wa.me/+21625307197" aria-label="WhatsApp"><i class="bi bi-whatsapp"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom text-center mt-4 pt-4 border-top border-white-10">
+            <small>© 2026 SA COATING Distribution. Tous droits réservés.</small>
+        </div>
+    </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script>
+    const featureSections = document.querySelectorAll('.feature-reveal');
+
+    if ('IntersectionObserver' in window) {
+        const featureObserver = new IntersectionObserver((entries, observer) => {
+            entries.forEach((entry) => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('is-visible');
+                    observer.unobserve(entry.target);
+                }
+            });
+        }, { threshold: 0.2 });
+
+        featureSections.forEach((section) => featureObserver.observe(section));
+    } else {
+        featureSections.forEach((section) => section.classList.add('is-visible'));
+    }
+</script>
